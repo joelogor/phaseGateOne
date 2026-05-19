@@ -12,19 +12,17 @@ public class TaskTen{
     System.out.println("Enter second number:");
     int secondNumber = input.nextInt();
     
-    System.out.println("Enter third number:");
-    int thirdNumber = input.nextInt();
-    int largest = firstNumber;
+    
+    int larger = firstNumber;
     
     if(secondNumber > firstNumber){
-        largest = secondNumber;
+        larger = secondNumber;
         }
-    else if(thirdNumber > secondNumber){
-        largest = thirdNumber;
-    }
+    
+    
         
     
-    System.out.println("Largest number = " + largest );
+    System.out.println("Larger number = " + larger );
     
     
     }
