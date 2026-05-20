@@ -12,7 +12,7 @@ public class LikeSystemTest{
     
     String expected = "no one likes this";
     
-    String[] actual = LikeSystem.displayText(text);
+    String actual = LikeSystem.displayText( new String[]{});
     assertEquals(actual,expected);
     
     }
